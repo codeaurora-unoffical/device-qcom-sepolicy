@@ -99,6 +99,7 @@ vendor.debug.rs.noperflock u:object_r:public_vendor_default_prop:s0
 
 #vendor-wlan
 vendor.wlan.  u:object_r:vendor_wifi_prop:s0
+ro.vendor.wlan. u:object_r:qcom_wlan_prop:s0
 
 #time service
 persist.vendor.delta_time.enable    u:object_r:vendor_time_service_prop:s0

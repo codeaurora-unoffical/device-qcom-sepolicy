@@ -20,3 +20,6 @@ userdebug_or_eng(`
 
 # allow read ro.radio.noril peop
 allow system_server radio_noril_prop:file { open read getattr };
+
+# allow system_server to access wifi prop
+get_prop(system_server, qcom_wlan_prop)
