@@ -124,3 +124,4 @@ genfscon sysfs /devices/platform/soc/a000000.qcom,wcnss-wlan/net u:object_r:sysf
 
 genfscon sysfs /devices/platform/soc/soc:qcom,mdss_spi_panel/soc:qcom,mdss_spi_panel:qcom,mdss_fb_primary/leds/lcd-backlight/brightness u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/soc/78b6000.i2c/i2c-2/2-0064/leds/button-backlight/brightness u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/78b6000.i2c/i2c-2/2-0064/leds/subbacklight/brightness u:object_r:sysfs_leds:s0
