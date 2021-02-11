@@ -65,3 +65,5 @@ r_dir_file(hal_camera_default, sysfs_graphics)
 get_prop(hal_camera_default, hal_camera_default_prop)
 allow hal_camera_default hab_device:chr_file rw_file_perms;
 allow hal_camera_default sw_sync_file:file { read write };
+allow hal_camera_default hal_graphics_allocator_hwservice:hwservice_manager find;
+allow hal_camera_default hal_graphics_allocator_default:binder call;
